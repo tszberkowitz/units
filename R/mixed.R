@@ -6,10 +6,13 @@
 # constructor function:
 #' Create or convert to a mixed units list-column
 #' @param x numeric, or vector of class \code{units}
-#' @param values character vector with units encodings, or list with symbolic units of class \code{mixed_symbolic_units}
+#' @param values character vector with units encodings, or list with symbolic
+#'   units of class \code{mixed_symbolic_units}
 #' @param value see values
 #' @param ... ignored
-#' @details if \code{x} is of class \code{units}, \code{values} should be missing or of class \code{mixed_symbolic_units}; if \code{x} is numeric, \code{values} should be a character vector the length of \code{x}.
+#' @details If \code{x} is of class \code{units}, \code{values} should be
+#'   missing or of class \code{mixed_symbolic_units}; if \code{x} is numeric,
+#'   \code{values} should be a character vector the length of \code{x}.
 #' @examples
 #' a <- 1:4
 #' u <- c("m/s", "km/h", "mg/L", "g")
