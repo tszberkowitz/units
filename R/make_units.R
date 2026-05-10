@@ -155,8 +155,10 @@ as_units.symbolic_units <- function(x, value, ...) {
 }
 
 #' @examples
+#' 
+#' # Use difftime object as units
 #' s = Sys.time()
-#' d  = s - (s+1)
+#' d = s - (s+1)
 #' as_units(d)
 #'
 #' @name units
